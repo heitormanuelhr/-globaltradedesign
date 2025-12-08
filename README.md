@@ -1,4 +1,4 @@
-# -globaltradedesign
+# globaltradedesign
 <!DOCTYPE html>
 <html lang="en">
 <head>
