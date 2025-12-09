@@ -3,95 +3,96 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Global Trade Design</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Trade Design</title>
   <style>
     body {
+      font-family: Arial, sans-serif;
+      background: #0e0e0e;
+      color: #f1f1f1;
       margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background-color: #0d0d0d;
-      color: #ffffff;
+      padding: 0;
+      line-height: 1.6;
     }
     .container {
       max-width: 900px;
       margin: auto;
-      padding: 80px 20px;
+      padding: 40px 20px;
+    }
+    h1, h2 {
+      color: #ffffff;
+    }
+    .highlight {
+      color: #cfa24f;
+    }
+    .box {
+      background: #181818;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 8px;
+    }
+    img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+      margin: 15px 0;
+    }
+    .cta {
+      background: #cfa24f;
+      color: #000;
+      padding: 15px;
       text-align: center;
-    }
-    h1 {
-      font-size: 42px;
-      letter-spacing: 1px;
-      margin-bottom: 10px;
-    }
-    p {
-      font-size: 18px;
-      line-height: 1.6;
-      color: #cccccc;
-    }
-    .tagline {
+      font-weight: bold;
+      border-radius: 6px;
       margin-top: 30px;
-      font-size: 20px;
-      font-style: italic;
-      color: #888888;
-    }
-    .services {
-      margin-top: 60px;
-      text-align: left;
-    }
-    .services h2 {
-      font-size: 26px;
-      margin-bottom: 20px;
-      text-align: center;
-    }
-    .services ul {
-      list-style: none;
-      padding: 0;
-    }
-    .services li {
-      margin-bottom: 15px;
-      font-size: 17px;
-      padding-left: 20px;
-      position: relative;
-    }
-    .services li::before {
-      content: "—";
-      position: absolute;
-      left: 0;
-      color: #777777;
-    }
-    .footer {
-      margin-top: 80px;
-      font-size: 14px;
-      color: #777777;
     }
   </style>
 </head>
 <body>
 
 <div class="container">
-  <h1>Global Trade Design</h1>
-  <p>
-    Strategic International Trade & Brand Expansion
-  </p>
 
-  <div class="tagline">
-    Designing global routes for serious commerce.
+  <h1>Global Trade Design</h1>
+  <h2 class="highlight">Strategic Market Entry & Private Label Development</h2>
+
+  <div class="box">
+    <p>
+      We help brands and producers enter international markets through
+      strategic distribution, private label development, and direct commercial execution.
+    </p>
   </div>
 
-  <div class="services">
+  <div class="box">
     <h2>What We Do</h2>
     <ul>
-      <li>International Market Entry Strategy</li>
-      <li>Brand Positioning for Cross-Border Expansion</li>
-      <li>Distributor and Importer Development</li>
-      <li>Private Label Strategy & Development</li>
-      <li>Logistics & Regulatory Coordination</li>
+      <li>International Wholesale Distribution Strategy</li>
+      <li>Private Label & Brand Development</li>
+      <li>Go-To-Market Execution (EMEA, USA, LATAM)</li>
+      <li>Direct Access to Decision Makers</li>
     </ul>
   </div>
 
-  <div class="footer">
-    © 2025 Global Trade Design — All Rights Reserved
+  <div class="box">
+    <h2>Featured Spirits Projects</h2>
+
+    <h3>Mexia – Tequila & Mezcal</h3>
+    <img src="images/mexia.jpg" alt="Mexia Tequila">
+    <p>Artisanal Tequila & Mezcal project with active U.S. market presence.</p>
+
+    <h3>Benefício – Premium Gin</h3>
+    <img src="images/beneficio.jpg" alt="Beneficio Gin">
+    <p>High-end gin project focused on wholesale and private label strategy.</p>
   </div>
+
+  <div class="box">
+    <h2>Contact</h2>
+    <p>Email: <strong>contact@globaltradedesign.com</strong></p>
+  </div>
+
+  <div class="cta">
+    Building brands. Opening markets. Executing strategy.
+  </div>
+
 </div>
 
 </body>
